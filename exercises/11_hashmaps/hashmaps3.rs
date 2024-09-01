@@ -41,6 +41,8 @@ fn build_scores_table(results: &str) -> HashMap<&str, TeamScores> {
                 goals_conceded: 0,
         });
 
+
+
         team_2_entry.goals_scored += team_2_score;
         team_2_entry.goals_conceded += team_1_score;
 
